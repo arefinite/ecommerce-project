@@ -1,2 +1,6 @@
 export {default as Header} from './shared/Header'
 export {default as Footer} from './shared/Footer'
+export {default as Navbar} from './shared/Navbar'
+export {default as Categories} from './home/Categories'
+export {default as DiscountedProducts} from './home/DiscountedProducts'
+export {default as TopRatedProducts} from './home/TopRatedProducts'

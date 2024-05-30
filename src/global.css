@@ -66,6 +66,12 @@
     }
   }
 
+  @layer components {
+    .center {
+      @apply container mx-auto
+    }
+  }
+
   @layer base {
     * {
       @apply border-border;
