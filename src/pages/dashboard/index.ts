@@ -1,0 +1,5 @@
+export {default as Dashboard} from './Dashboard'
+export {default as ManageProduct} from './ManageProduct'
+export {default as AddUpdateProduct} from './AddUpdateProduct'
+export {default as Profile} from './Profile'
+export {default as DashboardError} from './DashboardError'
