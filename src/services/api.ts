@@ -13,3 +13,7 @@ export const getProductById = async (id: string) => {
   return (await apiClient.get<Product>(`${baseURL}/products/${id}`)).data
 }
 
+
+export const getProductsInfinite = async ({pageParam}:{pageParam:number}) => {
+  return (await apiClient.get<Product[]>(`${baseURL}/products?page=${pageParam+1}&limit=8`)).data
+}

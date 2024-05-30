@@ -50,7 +50,7 @@ const ProductCard = ({ product }: Props) => {
               / $
               {Math.floor(
                 product.price - (product.price * product.discount) / 100
-              )}{' '}
+              )}
               {product.discount > 0 && (
                 <sup className='text-red-500 font-bold'>
                   {product.discount}% off
